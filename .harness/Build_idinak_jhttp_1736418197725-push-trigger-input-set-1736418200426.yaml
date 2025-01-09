@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_idinak_jhttp_1736418197725-push-trigger-input-set
+  identifier: Build_idinak_jhttp_1736418197725pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_idinak_jhttp_1736418197725
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
