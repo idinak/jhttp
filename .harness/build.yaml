@@ -9,6 +9,9 @@ pipeline:
         build: <+input>
         connectorRef: account.Github_OAuth_1736418121928
         repoName: idinak/jhttp
+  environment:
+    variables:
+      GIT_DISCOVERY_ACROSS_FILESYSTEM: "1"
   stages:
     - stage:
         identifier: build
