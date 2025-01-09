@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_idinak_jhttp_1736424682339-push-trigger-input-set
+  identifier: Build_idinak_jhttp_1736424682339pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: kloia_demo
+  pipeline:
+    identifier: Build_idinak_jhttp_1736424682339
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
